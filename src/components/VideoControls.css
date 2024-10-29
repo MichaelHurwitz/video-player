@@ -1,0 +1,28 @@
+/* src/components/VideoControls.css */
+
+/* מסגרת לכפתורים */
+.controls-container {
+  display: flex;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+/* אייקונים */
+.icon {
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  color: #1e90ff;
+  transform: scale(1.2);
+}
+
+/* אייקון מסך מלא */
+.fullscreen-icon {
+  color: #ff9800;
+}
