@@ -7,8 +7,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
-dist
+
+# Build outputs
+!dist/   # הסר את ההחרגה עבור העלאה ל-gh-pages
 dist-ssr
 *.local
 
